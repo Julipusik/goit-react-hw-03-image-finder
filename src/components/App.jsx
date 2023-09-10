@@ -67,7 +67,7 @@ export class App extends React.Component {
   }
 
   render() {
-    const { gallery, searchValue, loading, error, modalOpen, largeImageURL } = this.state;
+    const { gallery, loading, error, modalOpen, largeImageURL } = this.state;
     return (
       <div>
         <SearchBar onSubmit={this.onSearch} />
